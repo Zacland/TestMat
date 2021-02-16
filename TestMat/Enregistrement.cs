@@ -9,7 +9,7 @@ namespace TestMat
     public class Enregistrement
     {
         public string libelle;
-        public bool isGed;
-        public bool isAnalytics;
+        public bool isGed = false;
+        public bool isAnalytics = false;
     }
 }
